@@ -4,7 +4,7 @@ import { abis } from "@my-app/contracts";
 import {
   ERC20,
   useContractFunction,
-  useEheters,
+  useEthers,
   useTokenAllowance,
   useTokenBalance,
 } from "@usedapp/core";
@@ -13,7 +13,7 @@ import { parseUnits } from "@ethersproject/units";
 
 import { ROUTER_ADDRESS } from "../config";
 
-const Exchange = () => {
+const Exchange = ({ pools }) => {
   return <div>Exchange</div>;
 };
 
